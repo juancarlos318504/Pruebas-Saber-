@@ -1,0 +1,51 @@
+.o-card-subscribe{
+    width: 15rem;
+    height: 16rem;
+    background-color: var(--background_login);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2em;
+
+}
+
+.o-button-subscribe{
+    border: 2px solid #6D929E;
+    background-color: var(--background_login);
+    border-radius: 2em;
+    height: 2.8em;
+    padding: 0 1em;
+    margin-bottom: .7em;
+    font-family: Bold;
+    color: #6D929E;
+    margin-top: -1em;
+    font-size: .7em;
+}
+
+.o-line-subscribe{
+    background-color: white;
+    width: 90%;
+    height: 2px;
+    margin-top: .5em;
+}
+
+.o-certificates-label-container{
+    display: flex;
+    align-items: center;
+    margin-top: .3em;
+}
+
+.o-certificates-label-container img{
+    height: 1.5em;
+    margin-right: .5em;
+}
+
+.o-certificates-label-container p{
+    font-family: SemiBold;
+    font-size: .9em;
+    margin: 0;
+    color: #6D929E;
+}
+

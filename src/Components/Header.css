@@ -1,0 +1,16 @@
+.o-header{
+    width: 100%;
+    display: flex;
+}
+
+.o-content-header{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.o-logo{
+    max-height: 100%;
+    margin-right: 4em;
+}
+

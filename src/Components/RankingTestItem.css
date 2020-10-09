@@ -1,0 +1,71 @@
+.o-ranking-test-item-container{
+    width: 100%;
+    height: 3.3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .3em;
+}
+
+.o-item-ranking-number{
+    height: 3.3em;
+    width: 3.3em;
+    background-color: var(--blue_button);
+    border-radius: .4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-item-ranking-number p{
+    color: white;
+    font-family: SemiBold;
+    font-size: 1.5em;
+}
+
+.o-avatar-img{
+    height: 80%;
+    
+}
+
+.o-card-item-ranking{
+    height: 100%;
+    width: 55%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.o-card-item-ranking h3{
+    color: #58595B;
+    font-family: SemiBold;
+    margin: 0;
+    text-align: left;
+    width: 80%;
+    display: flex;
+    align-self: center;
+    font-size: .9em;
+}
+
+.o-card-item-ranking p{
+    color: #808285;
+    font-family: Regular;
+    margin: 0;
+    text-align: left;
+    width: 80%;
+    display: flex;
+    align-self: center;
+    font-size: .7em;
+}
+
+.o-card-item-ranking div{
+    height: 1.5px;
+    width: 90%;
+    background-color: #A7A9AC;
+    margin: 0;
+    display: flex;
+    align-self: center;
+    margin: .2em 0;
+}

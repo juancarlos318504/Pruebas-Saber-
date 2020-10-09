@@ -1,0 +1,13 @@
+.o-ranking-test-container{
+    height: 90%;
+    width: 80%;
+}
+
+.o-label-ranking-test{
+    color: #2C464F;
+    font-family: Medium;
+    margin: 0;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 1em;
+}

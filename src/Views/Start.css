@@ -1,0 +1,58 @@
+.o-tittle-container{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    align-self: flex-end;
+}
+
+.o-tittle-container h2{
+    margin: 0;
+    color: #6D929E;
+    font-family: Bold;
+}
+
+.o-tittle-container h1{
+    margin: 0;
+    color: var(--green_box);
+    font-family: Bold;
+    font-size: 2.5em;
+}
+
+.o-tittle-container h1 span{
+    margin: 0;
+    color: var(--green_box);
+    font-family: Ligth;
+}
+
+.o-panel-info {
+    width: 100%;
+    height: 100%;
+}
+
+.o-panel-start{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.o-description{
+    color: #414042;
+    font-family: Medium;
+    font-size: 1.1em;
+}
+
+.o-cards-start-container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    
+}
+
+.o-buttons-start-container{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    height: 10%;
+}

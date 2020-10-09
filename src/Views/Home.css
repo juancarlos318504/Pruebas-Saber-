@@ -1,0 +1,137 @@
+.o-home-container{
+    height: 80%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 2em;
+    padding: 0;
+}
+
+.o-home-info-container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    margin-top: 2em;
+}
+
+.o-home-text-container{
+    width: 45%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.o-info{
+    width: 80%;
+    height: 95%;
+}
+
+.o-info h1 {
+    font-size: 3em;
+    font-family: black;
+    color: #7583C1;
+    margin-bottom: 1em;
+}
+
+.o-info h3 {
+    font-size: 1.8em;
+    font-family: Ligth;
+    color: #404B6A; 
+}
+
+.o-info p {
+    font-size: 1.1em;
+    font-family: Ligth;
+    color: #86888A; 
+}
+
+.o-home-image-container{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.o-home-image-container img{
+    height: 100%;
+}
+
+
+
+/*opciones del header*/
+.o-content-header-home{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    float: right;
+}
+
+.o-options-header-home {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    justify-content: space-between;
+    list-style: none;
+    text-decoration:none;
+    font-family: Medium;
+}
+
+.o-options-header-home span{
+    margin: 0 1em;
+}
+
+.o-option-home{
+    text-decoration:none
+}
+
+.o-search-container {
+    border: 1px solid #ccc;
+    border-radius: .7rem;
+    box-shadow: 2px 2px 10px #888888;
+    background-color: white;
+    width: 25%;
+    height: 2em;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 0.4em;
+    margin: 0 1em;
+}
+
+.o-search-container input {
+    border:none;
+    height: 70%;
+    width: 75%;
+    font-family: Regular;
+}
+
+.o-search-container input:focus{
+    border:none;
+    outline: none;
+    font-family: Regular;
+} 
+
+.o-search-container button {
+    height: 1.5em;
+    width: 1.5em;
+    margin-right: 1em;
+    border: none;
+    cursor: pointer;
+    background: none;
+    background-image: url('../Images/buscar.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.o-search-container button:focus {
+    border:none;
+    outline: none;
+}

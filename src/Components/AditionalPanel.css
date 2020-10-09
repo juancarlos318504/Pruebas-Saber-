@@ -1,0 +1,25 @@
+.o-aditional-panel{
+    height: 90%;
+    width: 75%;
+}
+
+.o-certificates{
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+.o-certificates p{
+    color: #2C464F;
+    font-family: Medium;
+    margin: 0;
+}
+
+
+.o-boxes-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+
+}
