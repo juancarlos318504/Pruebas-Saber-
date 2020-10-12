@@ -16,7 +16,8 @@ import Camera from './Views/Camera';
 import Start from './Views/Start';
 import Ranking from './Views/Ranking';
 import LevelPresentation from './Views/LevelPresentation';
-import Question from './Views/Question';
+import QuestionsList from './Views/QuestionsList';
+import FinalLevel from './Views/FinalLevel';
 
 class App extends Component {
 
@@ -41,7 +42,8 @@ class App extends Component {
               <Route exact path="/inicio" component={Start}/>
               <Route exact path="/ranking" component={Ranking}/>
               <Route exact path="/nivel" component={LevelPresentation}/>
-              <Route exact path="/pregunta" component={Question}/>
+              <Route exact path="/pregunta" component={QuestionsList}/>
+              <Route exact path="/pregunta-final" component={FinalLevel}/>
           </Switch>
         </div>
     </Router>

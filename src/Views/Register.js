@@ -11,12 +11,18 @@ class Register extends Component{
         };
     }
 
+    register(evt){
+        evt.preventDefault();
+        //localStorage.setItem("emotion", radioValue);
+        this.props.history.push('/camara');
+    }
+
     render() {
         return(
             <div className='o-login-container'>                
                 <div className="o-login-card">
                     <img src={require('../Images/logo.png')} alt="Logo" className="o-logo-login"/>
-                    <form onSubmit={this.login} className="o-form-login" >
+                    <form onSubmit={this.register.bind(this)} className="o-form-login" >
                         <select required>
                             <option value="" selected>Tipo de documento</option>
                             <option value="TI">Tarjeta de identidad</option>

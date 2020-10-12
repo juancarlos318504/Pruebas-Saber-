@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './Menu.css';
+import { NavLink, Link } from "react-router-dom";
 
 const Menu =(props)=> {
 
@@ -31,7 +32,9 @@ const Menu =(props)=> {
                     <p>Notificaciones</p>
                 </div>
             </div>
-            <button className="o-exit-button" >Salir</button>
+
+            <button className="o-exit-button" > <a href="/">Salir</a></button>
+            
         </div>
     );
 }

@@ -7,7 +7,7 @@ const ButtonSecundary = (props)=> {
         border: "2px solid #6D929E",
         backgroundColor: "#E6E7E8",
         borderRadius: "2em",
-        width: "50%",
+        
         height: "2.8em",
         marginBottom: "1em",
         fontFamily: "Bold",
@@ -34,8 +34,18 @@ const ButtonSecundary = (props)=> {
       backgroundColor: "var(--green_button)"
   }
 
+  const styleAllWhite ={
+    border: "3.5px solid white",
+    borderRadius: "2em",
+    padding: "0 1em",
+    height: "3em",
+    fontFamily: "Bold",
+    color: "white",
+    backgroundColor: "transparent"
+ }
+
   return (  
-      <button className="o-button-secundary" style={style=="gray"? styleGray : (style=="green"? styleGreen: styleWhite)}>{text}</button> 
+      <button onClick={()=>props.onClick()} className="o-button-secundary" style={style=="gray"? styleGray : (style=="green"? styleGreen: (style=="allWhite"? styleAllWhite: styleWhite))}>{text}</button> 
   );
 }
 

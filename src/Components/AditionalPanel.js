@@ -24,7 +24,7 @@ class AditionalPanel extends Component{
                         <BoxInfo toggle={false} image={require('../Images/programacion.svg')} tittle={"Programación CSS"} color="var(--purple_box)"></BoxInfo>
                         
                     </div>
-                    <ButtonSecundary text="VER MÁS" style="gray"></ButtonSecundary>
+                    <ButtonSecundary onClick={()=>console.log("ver más")} text="VER MÁS" style="gray"></ButtonSecundary>
                 </div>
 
                 <div className="o-certificates">
@@ -36,7 +36,7 @@ class AditionalPanel extends Component{
                         <BoxInfo toggle={true} image={require('../Images/javascript.svg')} tittle="JavaScript &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" color="var(--purple_box)"></BoxInfo>
                         
                     </div>
-                    <ButtonSecundary text="VER MÁS" style="gray"></ButtonSecundary>
+                    <ButtonSecundary onClick={()=>console.log("ver más")} text="VER MÁS" style="gray"></ButtonSecundary>
                 </div>
                 
             </div>

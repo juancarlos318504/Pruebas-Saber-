@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './Login.css';
-import ButtonPrimary from '../Components/ButtonPrimary'
+import ButtonPrimary from '../Components/ButtonPrimary';
+
 
 
 class Login extends Component{
@@ -11,12 +12,18 @@ class Login extends Component{
         };
     }
 
+    login(evt){
+        evt.preventDefault();
+        //localStorage.setItem("emotion", radioValue);
+        this.props.history.push('/inicio');
+    }
+
     render() {
         return(
             <div className='o-login-container'>                
                 <div className="o-login-card">
                     <img src={require('../Images/logo.png')} alt="Logo" className="o-logo-login"/>
-                    <form onSubmit={this.login} className="o-form-login" >
+                    <form onSubmit={this.login.bind(this)} className="o-form-login" >
                         <select required>
                             <option value="" selected>Tipo de documento</option>
                             <option value="TI">Tarjeta de identidad</option>

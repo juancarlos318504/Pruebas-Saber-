@@ -22,7 +22,7 @@
 }
 
 .o-logo-login{
-    width: 7em;
+    max-height: 15%;
 }
 
 .o-form-login{
@@ -30,6 +30,7 @@
     flex-direction: column;
     width: 80%;
     margin-top: 2em;
+    max-height: 80%;
 }
 
 .o-form-login input{

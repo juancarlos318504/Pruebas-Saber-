@@ -38,7 +38,7 @@ class Ranking extends Component{
                 <ItemRanking number="4" certificates="9" points="1743"></ItemRanking>
             </div>
             <div className="o-buttons-ranking-container">
-                <ButtonSecundary text="RANKINGS POR PRUEBAS" style="white"></ButtonSecundary>
+                <ButtonSecundary onClick={()=>console.log("ranking por pruebas")} text="RANKINGS POR PRUEBAS" style="white"></ButtonSecundary>
             </div>
             
         </div>

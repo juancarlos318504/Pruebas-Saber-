@@ -30,8 +30,14 @@ class Home extends Component{
                 </ul>
 
                 <div>
-                    <ButtonPrimary text="INGRESAR" margin="0 1.5em" color="green_button"></ButtonPrimary>
-                    <ButtonPrimary text="REGISTRARSE" margin="0 1.5em" color="green_button"></ButtonPrimary>
+                    <Link to="/ingreso">
+                        <ButtonPrimary text="INGRESAR" margin="0 1.5em" color="green_button"></ButtonPrimary>     
+                    </Link>
+                    
+                    <Link to="/registro">
+                        <ButtonPrimary text="REGISTRARSE" margin="0 1.5em" color="green_button"></ButtonPrimary>
+                    </Link>
+                    
                 </div>
                 
 

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './Camera.css';
 import Webcam from "react-webcam";
+import { NavLink, Link } from "react-router-dom";
 
 class Camera extends Component{
     constructor(props) {
@@ -47,9 +48,13 @@ class Camera extends Component{
 
                     <div className="o-button-camera-container">
                         <p>Comprueba que eres tu</p>
-                        <button className="o-camera-button" >
-                            <img src={require('../Images/camara.png')} alt="Logo"/>
-                        </button>
+
+                        <Link to="/inicio">
+                            <button className="o-camera-button" >
+                                <img src={require('../Images/camara.png')} alt="Logo"/>
+                            </button>
+                        </Link>
+                        
                         <p>Toma una foto</p>
                     </div>
                 </div>

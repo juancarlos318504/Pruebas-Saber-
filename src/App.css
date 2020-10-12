@@ -46,10 +46,15 @@
   src: url('./Font/Montserrat/Montserrat-Bold.ttf');
 }
 
+@font-face {
+  font-family: ExtraBold;
+  src: url('./Font/Montserrat/Montserrat-ExtraBold.ttf');
+}
+
 
 .App {
   text-align: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
   height: 100vh;
   width: 100vw;
   display: flex;
